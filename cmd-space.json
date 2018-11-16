@@ -1,0 +1,29 @@
+{
+  "title": "CMD+Space to F16",
+  "rules": [
+    {
+      "description": "Map CMD+Space to F16",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f16"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
